@@ -8,10 +8,10 @@
     "event"
   ],
   "license": "GPL-3.0",
-  "author": "Barni-Mezei, IGK111",
-  "type": "commonjs",
-  "main": "index.js",
+  "author": "Barni-Mezei, IGK111, kivikovi15",
+  "main": "server/index.js",
   "scripts": {
-    "start": "npm start server/index.js"
+    "build": "npm install",
+    "start": "clear ; node --title Calendarly server/index.js"
   }
 }
