@@ -1,0 +1,17 @@
+{
+  "name": "calendarly",
+  "version": "1.0.0",
+  "description": "An event planner website",
+  "keywords": [
+    "calendar",
+    "planning",
+    "event"
+  ],
+  "license": "GPL-3.0",
+  "author": "Barni-Mezei, IGK111",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start server/index.js"
+  }
+}
