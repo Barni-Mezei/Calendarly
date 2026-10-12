@@ -4,4 +4,17 @@ head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Calendarly
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="global.css")
 body
+    canvas#space 
+
+    img(src="./res/images/settingsIcon.png", draggable="false", class="settingsIcon" alt="Settings Icon")
+
+    header 
+        h1.month#month January
+
+    main
+        .calGrid#calGrid 
+
+script(src="script.js") 
