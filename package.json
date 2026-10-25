@@ -11,7 +11,7 @@
   "author": "Barni-Mezei, IGK111, kivikovi15",
   "main": "server/index.js",
   "scripts": {
-    "build": "npm install",
+    "build": "echo \">>> Downloading packages\" ; npm install ; echo \">>> Creating database\" ; sqlite3 database.sqlite < database_structure.sql ; echo \">>> Done!\"",
     "start": "clear ; node --title Calendarly server/index.js"
   },
   "dependencies": {
