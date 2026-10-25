@@ -1,0 +1,13 @@
+/* Hack to override default.css */
+html:first-of-type {
+    --background: #0d001a;
+    --icons: #467272;
+    --fontColor: #35646d;
+
+    --calTop: #342031;
+    --calBackground: #3c1533;
+    --calBorders: #000000;
+
+    --color2: #0c0f14;
+    --color3: #271c2e;
+}
