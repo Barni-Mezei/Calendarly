@@ -63,3 +63,14 @@ main {
     background-color: var(--calBackground);
     border: 4px solid var(--calBorders);
 }
+
+.accountBtn {
+    background-color: var(--calTop);
+    border: 4px solid var(--calBorders);
+    padding: 15px; 
+    
+}
+
+.accountBtn h2 {
+    margin: 0px;
+}
