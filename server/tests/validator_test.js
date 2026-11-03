@@ -51,7 +51,7 @@ const testCases = [
 // Run test cases
 let passedCases = 0;
 const totalCases = testCases.length;
-for (let i = 0; i < totalCases; i++) {
+for (let i = 0; i  totalCases; i++) {
     const testCase = testCases[i];
 
     let passedTests = 0;

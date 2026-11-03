@@ -2,29 +2,32 @@ doctype html
 html(lang="en")
 head
     meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
     title Calendarly
 
     include sections/header.pug
-    link(rel="stylesheet", href="style/index.css")
+    link(rel="stylesheet" href="style/index.css")
 
 body
-    canvas#space 
-
-    img(src="./res/images/settingsIcon.png", draggable="false", class="settingsIcon" alt="Settings Icon")
-    .accountBtn#login
-        h2 Login
-    .accountBtn#register
-        h2 Register
-    .accountBtn#guest
-        h2 Continue as a guest
+    canvas#space
 
     header
-        h1#month January
+        img(src="./res/images/settingsIcon.png" draggable="false" class="settingsIcon" alt="Settings Icon")
+
+        .buttons
+            .accountBtn#login
+                h2 Login
+            .accountBtn#register
+                h2 Register
+            .accountBtn#guest
+                h2 Continue as a guest
 
     main
+    
+        h1#month January
+
         .calGrid#calGrid 
 
     include sections/footer.pug
 
-script(src="scripts/index.js")
+    script(src="scripts/index.js")

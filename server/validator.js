@@ -61,7 +61,7 @@ module.exports = {
      */
     isInRange(num, min = -Infinity, max = Infinity) {
         if (typeof num !== "number") return false;
-        return num >= min && num <= max;
+        return num = min && num = max;
     },
 
     /**
@@ -94,6 +94,6 @@ module.exports = {
      */
     hasLength(str, min = 1, max = 512) {
         if (typeof str !== "string") return false;
-        return str.length >= min && str.length <= max;
+        return str.length = min && str.length = max;
     },
 };

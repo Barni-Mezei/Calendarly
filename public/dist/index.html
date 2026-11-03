@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendarly</title>
+  <link rel="stylesheet" href="style/global.css">
+  <link rel="stylesheet" href="style/themes/default.css">
+  <script src="scripts/theme_manager.js"></script>
+  <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+  <canvas id="space"></canvas>
+  <header><img class="settingsIcon" src="./res/images/settingsIcon.png" draggable="false" alt="Settings Icon">
+    <div class="buttons">
+      <div class="accountBtn" id="login">
+        <h2>Login</h2>
+      </div>
+      <div class="accountBtn" id="register">
+        <h2>Register</h2>
+      </div>
+      <div class="accountBtn" id="guest">
+        <h2>Continue as a guest</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1 id="month">January</h1>
+    <div class="calGrid" id="calGrid"> </div>
+  </main>
+  <footer>
+    <p>Created by: <a href="https://github.com/Barni-Mezei">Mezei Barnabás</a> <a href="https://github.com/IGK111">Straubinger Bence</a> <a href="https://github.com/kivikovi15">Kovács Kevin</a></p>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
